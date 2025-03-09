@@ -1,0 +1,33 @@
+{
+  "name": "sdev-255-final-project-the-scripters",
+  "version": "1.0.0",
+  "description": "Repository for our final project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pperard/SDEV-255-Final-Project-The-Scripters.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pperard/SDEV-255-Final-Project-The-Scripters/issues"
+  },
+  "homepage": "https://github.com/pperard/SDEV-255-Final-Project-The-Scripters#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jwt-simple": "^0.5.6",
+    "mongoose": "^8.10.1",
+    "nodemon": "^3.1.9"
+  }
+}
